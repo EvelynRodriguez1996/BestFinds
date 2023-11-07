@@ -1,0 +1,55 @@
+
+
+/*imagen de perfil*/
+#imgPerfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+ 
+/* Diseño de contenedor de icono unido del lado izquierdo del contenedor nombreUsuario color amarillo */
+#icons {
+    background-color: #F9D423;
+    width: 250px;
+    height: 50px;
+    border-radius: 19px;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+    position: relative; /* Establece la posición relativa para ambos contenedores */
+}
+
+/*agregar el icono del lado izquierdo y dentro del contenedor icons*/
+#icono {
+    width: 28px;
+    position: absolute; /* Establece la posición absoluta para el icono */
+    left: 15px; /* Ajusta el valor negativo para desplazar el icono hacia la izquierda */
+}
+
+/* Diseño de nombre de usuario centrado, en un contenedor ovalado, dividido en dos colores rosa y amarillo */
+#menuPerfil {
+    background-color: #D71787;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 19px;
+    margin: auto;
+    margin-top: -50px;
+    padding-top: 10px;
+    font-size: 20px;
+    position: relative; /* Establece la posición relativa para ambos contenedores */
+    z-index: 1; /* Coloca el contenedor rosa por encima del amarillo */
+    left: 40px; /* Ajusta el valor negativo para desplazar el contenedor rosa hacia la izquierda */
+}
+
+
+/* Barra divisora */
+#barraDivisora{
+    width: 100%;
+    height: 30px;
+}
+
+
+ 

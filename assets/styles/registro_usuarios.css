@@ -1,0 +1,127 @@
+
+
+/* Titulos */
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+h4{
+    text-align: center;
+    margin-top: 10px;
+}
+#tituloEnlace{
+    margin-top: 10px;
+    text-align: center;
+}
+#preguntaCuenta{ /*cambiar el color del subrayado del enlace*/
+    color: #d71787;
+    text-decoration: underline;
+    text-decoration-color: #d71787;
+}
+
+
+/*div del formulario*/
+#formulario{
+    place-items: center;
+}
+#seccionForm{
+    margin-bottom: 20px;
+    position: relative;
+   
+    align-items: center;
+    
+}
+
+/*Inputs*/
+
+.divInputs{
+    padding-top: 5px;
+    padding-bottom: 35px;
+}
+.form-control{
+    color: #707070; /* Cambia el color del texto a #707070 */
+    font-family: "Roboto", sans-serif; /* Cambia la fuente del texto a "Roboto" */
+    width: 80%;
+    color: #707070;
+    border: 1px solid #707070;
+    display: inline;
+    &:focus{/*Cuando se da click en los inputs, se crea un resplandor*/
+        color: #707070;
+        font-weight: bold;
+    border: none;
+   box-shadow: 0 0 5px #d71787;
+   outline: 0px;
+}
+}
+
+#terminosYCondiciones{
+    align-items: center;
+}
+/* Boton */
+#btnRegistrar {
+    background-color: #d79a17; /* Cambia el color de fondo */
+    color: #ed2f2f; /* Cambia el color del texto a blanco */
+    border-color: #3d17d7;
+    border-radius: 40px;
+  }
+#btnRegistrar:hover {
+    background-color: #ff8c66; /* Cambia el color de fondo al pasar el mouse por encima */
+  }
+/*color del check al ser precionado*/
+#checkinput{
+    box-shadow: none;
+    border: 1px solid #707070;
+}
+#checkinput:checked {
+    background-color: #D71787; /* Cambia el color de fondo cuando está marcado  */
+    border-color: #707070;
+    box-shadow: 0 0 5px #d71787;
+    border: none;
+  }
+
+/*Alertas*/
+.alert{
+    max-width: 80%;
+    display: none;
+}
+
+/*Alertas activadas*/
+.alert-activa{
+    
+    display: block;
+}
+/*Alertas activadas*/
+.alert-noactiva{
+    
+    display: none;
+}
+
+
+
+  
+/* Barras laterales */
+#lateralIzq{
+    text-align: right;
+    position: relative;
+    align-items: center;
+    
+}
+#lateralDer{
+    text-align: left;
+    position: relative;
+}
+#imgLateral{
+    width: 30px;
+    max-height: fit-content;
+    height:auto;
+
+}
+
+
+/*Media query para ocultar barras laterales*/
+@media (max-width: 768px){
+    #imgLateral{
+        display: none;
+    }
+}
+

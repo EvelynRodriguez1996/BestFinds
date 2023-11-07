@@ -1,0 +1,92 @@
+
+
+/* Diseño base de etiqueta body*/
+body{
+    text-align: center;
+    font-family: "Roboto", sans-serif;;
+    color: #707070;
+}
+
+/* Titulos */
+h1{
+    text-align: center;
+    margin: 60px;
+}
+
+/*//////////////////////////////////////////////////////*/
+#carrito{
+    width: 100%;
+}
+
+#titulo1Carrito {
+    text-align: center;
+}
+
+
+#imgProductos {
+    width: 10rem;
+    height: 10rem;
+
+
+}
+
+@media (max-width: 576px) { 
+    #imgProductos {
+        width: 8rem;
+        height: 8rem;
+    
+    
+    }
+ }
+
+
+.rowPosition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-number {
+    width: 2.4rem;
+    border: solid 2px #D71787;
+}
+
+.icon-trash {
+    color: #D71787;
+}
+
+.input-number {
+    border: solid 2px #D71787;
+    text-align: center;
+    width: 2.4rem !important;
+}
+
+#imgHeader {
+    width: 100%;
+    height: 350px;
+}
+
+#colorButton {
+    background-color: #D71787;
+    border-color: #D71787;
+    width: 14rem;
+
+
+
+}
+
+
+#colorButton:focus {
+
+    /*Cuando se da click en los inputs, se crea un resplandor*/
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 0 5px #d71787;
+    outline: 0px;
+
+
+}
+
+/*//////////////////////////////////////////////////////////////
+

@@ -1,0 +1,228 @@
+/* Titulos */
+h4{
+    margin-top: 20px;
+}
+
+#izq, h2{
+    text-align: left;
+}
+
+/* Descripcion del producto */
+#txtDescripcion{
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Precio del producto */
+#precioPrincipal{
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/*Alineacion de filas verticalmente*/
+#verticalAlign{
+    display: grid;
+    place-items: center;
+}
+
+#contenedor{
+    border: 2px solid #d1d1d1;
+    margin: 2px;
+    padding: 10px;
+}
+
+#contenedor a{
+    text-decoration: none;
+    color: #707070;
+}
+
+#contenedorInferior, #contenedorAgregarComentario{
+    border: 2px solid #d1d1d1;
+    padding: 20px;
+    margin-top: 12px;
+    width: 100%;
+}
+
+#contenedorInferiorConProductos{
+    border: 2px solid #d1d1d1;
+    padding: 20px;
+    margin-top: 12px;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#enlaceProducto{
+    color: #707070;
+    text-decoration: none;
+}
+
+#cantidadPrincipal{
+    display: block;
+    font-size: 18px;
+    text-align: left;
+}
+
+#colorSelector{
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#tono1{
+    margin: 5px;
+    background-color: #6F2222;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+#tono2{
+    margin: 5px;
+    background-color: #B8934B;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+#tono3{
+    margin: 5px;
+    background-color: #8E1818;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+#tono4{
+    margin: 5px;
+    background-color: #331C00;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+#cantidadProductoPrincipal{
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+#btnComprarPrincipal{
+    background-color: #D71787;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    margin: 7px;
+    border-radius: 10px;
+}
+
+#btnAplicar, #btnEnviarComentario{
+    margin-top: 14px;
+    background-color: #D71787;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+#imgProducto{
+    margin-bottom: 10px;
+}
+
+#nombreProducto{
+    font-size: 14px;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+#precio{
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#cantidadProducto{
+    text-align: center;
+}
+
+
+/* ///////////////////SECCION INFERIOR IZQUIERDA /////////////////////////////// */
+
+/* Estilos de la seccion inferior con la descripcion del producto y comentarios*/
+#seccionDescYComentarios{
+    text-align: left;
+}
+
+#comentario{
+    text-align: left;
+}
+
+#acercaDeProducto{
+    margin-top: 20px;
+}
+
+#der{
+    text-align: right;
+}
+
+#contenedorComentarios{
+    border: 2px solid #d1d1d1;
+    padding: 20px;
+    margin-top: 12px;
+    width: 100%;
+    max-height: 650px;
+    text-align: center;
+}
+
+
+
+ /* Estilos para el botón de corazón */
+ .boton-corazon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #707070;
+    transition: color 0.3s;
+}
+
+/* Estilos para el botón de corazón cuando está activo (seleccionado) */
+.boton-corazon.activo {
+    color: #D71787;
+}
+
+
+
+
+
+
+
+
+
+
+
